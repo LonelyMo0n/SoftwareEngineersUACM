@@ -1,3 +1,9 @@
+/*******************************************
+Author: Acxel Martin Elizalde Camacho
+Fecha:26/01/2024
+Programa: Pedir un número y que muestre el mes
+correspondiente a ese número
+********************************************/
 #include<iostream>
 using namespace std;
 
