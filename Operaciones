@@ -1,0 +1,69 @@
+/******************************************************************************
+
+                          WORKING IN THIS CODE
+
+*******************************************************************************/
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+
+int printMenu(){
+    int opc = -1;
+    do {cout<<"\tOperaciones"<<endl;
+    cout<<"1) Pendiente de una recta"<<endl;
+    cout<<"2) Velocidad promedio"<<endl;
+    cout<<"3) Polinomio cuadraico"<<endl;
+    cout<<"4) Altua de un objeto en Caida Libre"<<endl;
+    cout<<"0) Salir"<<endl;
+    cout<<"Elegir opcion: "<<endl; cin>>opc;
+    } while (opc<0 || opc>4);
+    return opc;
+}
+
+void calcularPendRecta(){
+    // m = (y2-y1) / (x2-x1)
+    double y2=0.0, y1=0.0, x2=0.0, x1=0.0, m=0.0; 
+    //se usa "double" para tener un resultado mas preciso
+    cout<<"Ingrese X1: "<<endl; cin>>x1;
+    cout<<"Ingrese X2: "<<endl; cin>>x2;
+    cout<<"Ingrese Y1: "<<endl; cin>>y1;
+    cout<<"Ingrese Y2: "<<endl; cin>>y2;
+    m = (y2-y1) / (x2-x1);
+    
+    cout<<"El resultado de los puntos ("<<x1<<","<<y1<<"),("<<x2<<","<<y2<<") es: "<<m<<endl;
+    
+    system("PAUSE");
+    }
+    void calcularVelProm(){
+        // Vprom = (d_final - d_inicial ) / (T_total)
+        double vprom = 0.0, d_final = 0.0, d_inicial = 0.0, t_total = 0.0;
+        cout<<"Ingrese la distancia inicial: "<<endl; cin>>d_inicial;
+        cout<<"Ingrese la distancia final: "<<endl; cin>>d_final;
+        cout<<"Ingrese el tiempo total: "<<endl; cin>>t_total;
+        vprom = (d_final - d_inicial ) / (t_total);
+        
+        cout<<"Los datos son:\nDistancia Inicial:"<<d_inicial<<"\nDistancia Final:"<<d_final<<"\nTiempo total:"<<t_total<<"\ny la Velocidad promedio es:"<<vprom;
+        cout<<endl;
+        
+        
+        system("PAUSE");
+    }
+
+
+int main(){
+    int opc = -1;
+    while (opc != 0){
+        opc = printMenu();
+        
+        if(opc == 1){
+        calcularPendRecta();    
+        } if(opc == 2){
+            calcularVelProm();
+        }
+//Falta agregar 3), 4), 0) 
+        
+        
+    }
+    
+    return 0;
+}
