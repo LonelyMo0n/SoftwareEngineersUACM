@@ -1,18 +1,22 @@
-/*Hacer un programa que s�mule un cajero autom�tico con un saldo inicial
-de 1000 D�lares*/
+/*******************************************
+Author: Acxel Martin Elizalde Camacho
+Fecha:26/01/2024
+Programa: Cajero Automático (Simulador)
+********************************************/
 
-#include<iostream>
+//Hacer un programa que símule un cajero automático con un saldo inicial de 1000 Dólares
+#include<iostream> 
 using namespace std;
 
 int main(){
 	int saldo_inicial = 1000, opc;
 	float a1, a2, saldo = 0;
 	
-	cout<<"\tBienvenido a su cajero autom�tico"<<endl;
+	cout<<"\tBienvenido a su cajero automático"<<endl;
 	cout<<"1. Ingresar dinero en cuenta"<<endl;
 	cout<<"2. Retirar dinero en cuenta"<<endl;
 	cout<<"3. Salir"<<endl;
-	cout<<"Opci�n: "; cin>>opc;
+	cout<<"Opción: "; cin>>opc;
 	
 	switch(opc){
 		case 1: 
