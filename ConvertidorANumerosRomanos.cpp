@@ -1,3 +1,9 @@
+/*******************************************
+Author: Acxel Martin Elizalde Camacho
+Fecha:26/01/2024
+Programa: Convertidor a números Romanos
+********************************************/
+
 #include<iostream>
 using namespace std;
 
