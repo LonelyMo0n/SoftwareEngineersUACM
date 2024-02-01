@@ -1,3 +1,9 @@
+/*******************************************
+Author: Acxel Martin Elizalde Camacho
+Fecha:26/01/2024
+Programa: Suma de cuadrados
+********************************************/
+
 /* Realice un programa que calcule y muestre en la salida estandar la suma
 de los cuadrados de los 10 primeros enteros mayores que cero. */
 
