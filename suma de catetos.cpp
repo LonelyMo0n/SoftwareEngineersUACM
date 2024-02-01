@@ -1,7 +1,14 @@
+/*******************************************
+Author: Acxel Martin Elizalde Camacho
+Fecha:26/01/2024
+Programa: Suma de catetos
+********************************************/
+
 /*Escriba un programa que lea de la
-entrada estándar los dos catetos de un
-triángulo rectángulo y escriba en la
-  salida estándar su hipotenusa.*/
+entrada estÃ¡ndar los dos catetos de un
+triÃ¡ngulo rectÃ¡ngulo y escriba en la
+  salida estÃ¡ndar su hipotenusa.*/
+
 #include<iostream>
 #include<math.h> //Libreria de matematicas y trigonometricas
 using namespace std;
@@ -14,6 +21,7 @@ int main(){
 	cout<<"Digite el valor del cateto opuesto: "; cin>>co;
 	
 	h = sqrt(pow(ca, 2)+pow(co, 2)); // sqrt = raiz cuadrada, pow(nombre variable, numero a elevar)
+	//NOTA pow = potencia/exponente a elevar
 	
 	cout<<"\nEl valor de la hipotenusa es: "<<h<<endl;
 	
