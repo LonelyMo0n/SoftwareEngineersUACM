@@ -9,7 +9,7 @@ int main(){
 	
 	do{
 	cout<<i<<endl;
-	i--; //aumenta el iterador de uno en uno	
+	i++; //aumenta el iterador de uno en uno	
 		
 	}while(i>=1);
 	
@@ -17,5 +17,5 @@ int main(){
 	system("pause");
 	return 0;
 }
-//Do While, orimero actua, luego piensa
+//Do While, primero actua, luego piensa
 //While, piensa y luego actua
