@@ -1,3 +1,10 @@
+/*******************************************
+Author: Acxel Martin Elizalde Camacho
+Fecha:26/01/2024
+Programa: Mostrar la tabla de multiplicar de un
+número
+********************************************/
+
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
