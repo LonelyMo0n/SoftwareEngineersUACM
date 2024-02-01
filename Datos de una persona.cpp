@@ -1,3 +1,9 @@
+/*******************************************
+Author: Acxel Martin Elizalde Camacho
+Fecha:26/01/2024
+Programa: Datos de una persona
+********************************************/
+
 /*Realice un programa que lea de la estandar los siguientes datos
 de una persona:
 
